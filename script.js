@@ -113,7 +113,7 @@ async function payOrder(obj) {
   let promise = await new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(obj);
-    }, 1500)
+    }, 1000)
   })
 
   return promise;
