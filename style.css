@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    background-color: rgba(44, 52, 52, 0.86);
+
+}
+
+.nav-bar{
+    color: rgb(191, 214, 145);
+    border-bottom: 1px solid rgb(245, 210, 186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.nav-bar > p{
+    font-size: 28px;
+}
+
+.container{
+    margin: 0 40px 0 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 25px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(96, 96, 83);
+    width: 300px;
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 ;
+}
+
+.right{
+    margin: 0;
+}
+
+.name{
+    font-size: 18px;
+    margin: 5px 20px;
+}
+
+.bottom{
+    display: flex;
+    margin: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    font-size: 18px;
+}
+
+button{
+    margin: 0;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 5px;
+    width : 80px;
+    height: 40px;
+    background-color:rgb(96, 96, 83) ;
+    color: aliceblue;
+}
